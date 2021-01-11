@@ -1,4 +1,4 @@
-FROM nicekiwi/php
+FROM nicekiwi/php:1.0.0
 
 # Install deps
 RUN apk --update add supervisor
